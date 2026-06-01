@@ -6,17 +6,17 @@
 /*   By: gjuan-pa <gjuan-pa@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 14:32:30 by gjuan-pa          #+#    #+#             */
-/*   Updated: 2026/05/27 14:57:56 by gjuan-pa         ###   ########.fr       */
+/*   Updated: 2026/06/01 10:29:22 by gjuan-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putnbr_base(unsigned long long num, const char *base)
-{	
-	int	len;
+int	ft_putnbr_base(size_t num, const char *base)
+{
+	int		len;
 	size_t	len_base;
-	
+
 	len_base = ft_strlen(base);
 	len = 0;
 	if (num >= len_base)

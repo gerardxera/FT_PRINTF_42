@@ -6,7 +6,7 @@
 /*   By: gjuan-pa <gjuan-pa@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 10:36:07 by gjuan-pa          #+#    #+#             */
-/*   Updated: 2026/05/27 10:36:15 by gjuan-pa         ###   ########.fr       */
+/*   Updated: 2026/06/01 10:28:04 by gjuan-pa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	ft_putnbr(int nbr)
 {
 	long	num;
-	int	len;
+	int		len;
 
 	num = nbr;
 	len = 0;
