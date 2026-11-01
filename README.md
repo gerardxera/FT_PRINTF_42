@@ -8,6 +8,15 @@ Una implementación propia de la función `printf` en C, compilada como librerí
 
 `ft_printf` replica el comportamiento de la función estándar `printf`, gestionando la salida formateada con distintos especificadores de conversión. El proyecto se compila como librería estática (`libftprintf.a`) para facilitar su integración en otros proyectos en C.
 
+## Conversiones implementadas (Parte Obligatoria)
+* `%c`: Imprime un único carácter.
+* `%s`: Imprime una cadena de caracteres.
+* `%p`: Imprime la dirección de un puntero en formato hexadecimal.
+* `%d` / `%i`: Imprime un número entero decimal en base 10.
+* `%u`: Imprime un número decimal sin signo.
+* `%x` / `%X`: Imprime un número hexadecimal en minúsculas o mayúsculas.
+* `%%`: Imprime el símbolo de porcentaje.
+
 ## Archivos
 
 | Archivo | Descripción |

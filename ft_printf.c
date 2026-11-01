@@ -54,8 +54,8 @@ int	ft_printf(char const *str, ...)
 	{
 		if (str[i] == '%')
 		{
-			if (str[i + 1] == '\0')
-				break ;
+			//if (str[i + 1] == '\0')
+			//	break ;
 			len += ft_formats(&arg, str[i + 1]);
 			i++;
 		}

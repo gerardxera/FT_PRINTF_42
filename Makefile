@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 NAME	= libftprintf.a
-CC	= gcc
+CC	= cc
 CFLAGS	= -Wall -Wextra -Werror
 
 FILES	= ft_printf.c \
@@ -29,7 +29,7 @@ all: $(NAME)
 $(NAME): $(OBJS) 
 	ar rcs $(NAME) $(OBJS)
 
-%.o: %.c ft_printf.h Makefile
+%.o: %.c ft_printf.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
